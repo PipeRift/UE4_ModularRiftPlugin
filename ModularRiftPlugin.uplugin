@@ -4,7 +4,7 @@
 	"VersionName" : "1.0",
 	"FriendlyName" : "Modular Rift Plugin",
 	"Description" : "Creates and manages modular sets",
-	"Category" : "Level Editor.Plugins",
+	"Category" : "Editor",
 	"CreatedBy" : "PipeRift",
 	"CreatedByURL" : "http://piperift.com/",
 	"EnabledByDefault" : true,
@@ -13,7 +13,7 @@
 	"Modules" :
 	[
 		{
-			"Name" : "ModularRift",
+			"Name" : "ModularRiftPlugin",
             "Type" : "Developer"
 		}
 	]

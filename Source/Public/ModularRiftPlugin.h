@@ -7,7 +7,7 @@
 #include "LevelEditorActions.h"
 #include "SharedPointer.h"
  
-class ModularRiftImpl : public IModuleInterface
+class ModularRiftPlugin : public IModuleInterface
 {
 public:
 	/** IModuleInterface implementation */

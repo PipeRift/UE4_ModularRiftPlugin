@@ -6,7 +6,7 @@
 
 // Sets default values
 AModularActor::AModularActor(const FObjectInitializer &ObjectInitializer) : Super(ObjectInitializer) {
-	//UE_LOG(SkunkLog_ModularRift, Log, TEXT("-----AModularObject::AModularObject - Creating a new modular object"));
+	UE_LOG(SkunkLog_ModularRift, Log, TEXT("-----AModularActor::AModularActor - Creating a new modular object"));
 
 	// Set this actor to NOT call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	this->SetActorTickEnabled(false);
@@ -32,7 +32,7 @@ void AModularActor::Tick(float DeltaTime) {
 
 // Called when properties are changed
 void AModularActor::PostEditChangeProperty(struct FPropertyChangedEvent &e) {
-	//UE_LOG(SkunkLog_ModularRift, Log, TEXT("-----AFixItNote::PostEditChangeProperty"));
+	UE_LOG(SkunkLog_ModularRift, Log, TEXT("-----AModularActor::PostEditChangeProperty"));
 
 	Super::PostEditChangeProperty(e);
 
