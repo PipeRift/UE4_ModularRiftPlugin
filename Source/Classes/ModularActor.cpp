@@ -6,7 +6,7 @@
 
 // Sets default values
 AModularActor::AModularActor(const FObjectInitializer &ObjectInitializer) : Super(ObjectInitializer) {
-	UE_LOG(SkunkLog_ModularRift, Log, TEXT("-----AModularActor::AModularActor - Creating a new modular object"));
+	UE_LOG(SkunkLog_ModularRift, Log, TEXT("-----AModularActor::AModularActor - Creating a new modular actor."));
 
 	// Set this actor to NOT call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	this->SetActorTickEnabled(false);

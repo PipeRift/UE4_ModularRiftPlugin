@@ -1,6 +1,6 @@
 {
-	"Changelist" : 3039270,
-	"BuildId" : "",
+	"Changelist" : 3028348,
+	"BuildId" : "14e01347-f0c0-44de-84cb-e9175733ab8b",
 	"Modules" : 
 	{
 		"ModularRiftPlugin" : "UE4Editor-ModularRiftPlugin.dll"

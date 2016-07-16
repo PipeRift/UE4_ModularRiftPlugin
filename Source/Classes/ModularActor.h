@@ -5,8 +5,12 @@
 #include "GameFramework/Actor.h"
 #include "ModularActor.generated.h"
 
-
-UCLASS(config = Game, BlueprintType, meta = (ShortTooltip = "A modular object."))
+/**
+* ModularActor is the base class for an Actor that will have modular properties.
+* This properties can be having a ModularSet or being attached to other ModularActors.
+* 
+*/
+UCLASS(config = Game, meta = (ShortTooltip = "A modular object."))
 class AModularActor : public AActor {
 	GENERATED_UCLASS_BODY()
 
@@ -19,7 +23,6 @@ public:
 	virtual bool ShouldTickIfViewportsOnly() const override { return true; };  // This enables Tick while in the editor
 
 	virtual void PostEditChangeProperty(struct FPropertyChangedEvent& e) override;
-
 
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = Rendering)
